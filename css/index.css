@@ -1,0 +1,16 @@
+body {
+  background: rgb(147, 112, 219);
+}
+
+.webring{
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background: rgb(230, 230, 250);
+}
+
+
+hr{
+  width:500px;
+  margin: 2em 0;
+}
