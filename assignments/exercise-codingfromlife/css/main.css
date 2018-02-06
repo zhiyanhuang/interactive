@@ -1,0 +1,33 @@
+.canvas{
+  width: 100px;
+  height: 100px;
+  margin: 1000px auto;
+  background: rgb(78, 147, 83);
+  position: relative;
+}
+
+#orange {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#kiwi{
+  height: 3.75em;
+  width: 5em;
+  border-radius: 50%;
+  background: #513f35;
+  bottom: 9em;
+  right: 13em;
+}
+
+#vase{
+  border: 1px solid
+}
+
+#candle #wax{
+
+}

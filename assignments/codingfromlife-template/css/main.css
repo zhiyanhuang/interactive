@@ -1,0 +1,50 @@
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: pink;
+	position: relative;
+}
+
+
+#vase {
+		width: 200px;
+		height: 200px;
+		background: yellow;
+		top: 230px;
+		left: 370px;
+		position: absolute;
+	}
+
+#smallorange {
+	width: 100px;
+	height: 100px;
+	background: orange;
+	border-radius: 200px;
+	top: 250px;
+	left: 150px;
+	position: absolute;
+}
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	border-radius: 200px;
+	top: 160px;
+	left: 200px;
+	position: absolute;
+}
+
+#flower {
+	width: 500px;
+	height: 20px;
+	top: 308px;
+	left: 220px;
+	background: red;
+	position: absolute;
+}
