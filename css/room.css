@@ -1,0 +1,414 @@
+
+.pikachu{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+
+.head{
+  background: #ffe000;
+  width: 100px;
+  height: 100px;
+/*   border: 1px solid rgba(0,0,0,.5); */
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-left: -50px;
+  border-radius: 50%;
+}
+
+.head::after{
+  content: '';
+  width: 110px;
+  height: 100px;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  margin-left: -5px;
+/*   z-index: 5; */
+  background: #ffe000;
+  border-radius: 50%;
+  position: absolute
+}
+
+.ear {
+  width: 25px;
+  height: 130px;
+/*   border: 1px solid black; */
+  border-radius: 50%;
+  background: #ffe000;
+  position: absolute;
+  top: -70%;
+  overflow: hidden;
+}
+
+.ear::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  left: 0px;
+}
+
+.ear-left{
+  left: 3%;
+  transform: rotate(-15deg)
+}
+
+.ear-right{
+  right: 3%;
+  transform: rotate(15deg)
+}
+
+.eye {
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  top: 30%;
+}
+
+.eye::before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: 2px
+  animation:myfirst 5s;
+	-moz-animation:myfirst 5s; /* Firefox */
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+	-o-animation:myfirst 5s; /* Opera */
+}
+
+@keyframes myfirst
+{
+	0%   {background:red;}
+	25%  {background:yellow;}
+	50%  {background:blue;}
+	100% {background:green;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+	0%   {background:red;}
+	25%  {background:yellow;}
+	50%  {background:blue;}
+	100% {background:green;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	0%   {background:red;}
+	25%  {background:yellow;}
+	50%  {background:blue;}
+	100% {background:green;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+	0%   {background:red;}
+	25%  {background:yellow;}
+	50%  {background:blue;}
+	100% {background:green;}
+}
+
+.eye.left{
+  left: 15%;
+}
+
+.eye.right{
+  right: 15%;
+}
+
+
+.redpoint {
+  background: rgba(255,0,0,0.6);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 55%;
+}
+
+.redpoint.left{
+  left: -5%;
+}
+
+.redpoint.right{
+  right: -5%;
+}
+
+.nose {
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px
+}
+
+.nose span {
+  background: black;
+  width: 16px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px
+}
+
+.mouth {
+  background: red;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  border-radius: 0% 0% 50% 50%;
+  left: 50%;
+  top: 60%;
+  margin-left: -10px;
+  z-index: 2
+
+}
+
+mouth::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: black;
+  z-index: 5;
+  top: 20
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.room{
+  background-color: #EBEBEB;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.window{
+  width: 200px;
+  height: 300px;
+  background: #bcf7ff;
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 100px);
+  border: solid black 15px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.window:hover{
+  background-color: white;
+  background: url(../images/xiaozhi.jpg);
+  width: 200px;
+  height: 300px;
+}
+
+.window::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 270px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  position: absolute;
+  left: 20px;
+}
+
+.window::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 40px;
+  background-color: #f98f1d;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -40px;
+  left: calc(50% - 150px);
+}
+
+.light{
+  width: 4px;
+  height: 100px;
+  background-color: rgb(206, 192, 155);
+  margin-right: 30px;
+  position: absolute;
+  top: 0;
+  animation: swing2 2s infinite;
+}
+
+@keyframes swing2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.light::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 30px;
+  background-color: #4d1c11;
+  bottom: -30px;
+  position: absolute;
+  left: -32px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.light::before {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 10px;
+  background-color: #4d1c11;
+  bottom: -40px;
+  position: absolute;
+  left: -42px;
+  border-radius: 3px;
+}
+
+.couch{
+  width: 500px;
+  height: 150px;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.couch::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 15px;
+  background-color: #302a33;
+  position: absolute;
+  left: 20px;
+  bottom: -15px;
+}
+
+.couch::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 15px;
+  background-color: #302a33;
+  position: absolute;
+  right: 20px;
+  bottom: -15px;
+}
+
+.cushion{
+  width: 400px;
+  height: 150px;
+  background-color: #fed859;
+  position: absolute;
+  top: -25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.cushion::after {
+  content: '';
+  display: block;
+  background-color: rgba(222, 184, 35, 0.5);
+  width: 198.5px;
+  height: 30px;
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+}
+
+.cushion::before {
+  content: '';
+  display: block;
+  background-color: rgba(222, 184, 35, 0.5);
+  width: 198.5px;
+  height: 30px;
+  border-radius: 3px;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+}
+
+.vertical-line{
+  width: 3px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.horizontal-line{
+  height: 3px;
+  width: 400px;
+  background-color: black;
+  position: absolute;
+  bottom: 50px;
+}
+
+.medium {
+  z-index: 1;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  position: absolute;
+  transform: rotate(30deg);
+  bottom: 16px;
+}
+
+.l-cushion{
+ background-color: #f98f1d;
+ bottom: 16px;
+ left: 10px;
+}
+
+.r-cushion{
+ background-color: #f98f1d;
+ bottom: 16px;
+ right: 10px;
+}
+
+.little {
+  z-index: 2;
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 10px;
+}
