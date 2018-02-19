@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Zhiyan's Website</title>
+    <script src="js/exercisejs.js"></script>
+    <style>
+    body{
+    background-color: black;
+    color: white;
+    font-size: 72pt;
+}
+    </style>
+</head>
+
+<body>
+  page-content
+  <script type="text/javascript">
+  /* alert("hello world"); */
+  /* console.log("hello world"); */
+
+  // function hello(person){
+  // var greeting = "Hello it is"; + person + "!It's";
+  // var date = nav Date();
+
+  // alert(greeting + date);
+
+// }
+
+ // hello("Zhiyan");
+ // hello("huang");
+
+
+ $(document).ready(function(){
+   var size = Math.floor(Math.random() * 12) + 1;
+   var units = "em";
+   var fontSize = size + units;
+
+   console.log("font-size: " + fontSize);
+   $("body").css("font-size", fontSize);
+ });
+
+ var words = ['HTML', 'CSS', 'JavaScript', 'jQuery', 'technology', 'questions', 'internet', 'web', 'art.yale.edu', 'preservation', 'primary or secondary', 'social networks', 'ubiquity', 'calm technology', 'attention', 'reliability', 'governance', 'laws', 'audience', 'lifecycle', 'emergent design', 'undergrounds online', 'never-ending present', 'platforms', 'ephemerality', 'culture', 'The Internet Archive', 'digital black hole', 'performance', 'micro-communities', 'the periphery', 'the center', 'local', 'total context', 'reboot the world', 'typography', 'hierarchy', 'navigation', 'pacing', 'variable screen sizes', 'artistic development', 'technological advance', 'parallel histories', 'art', 'conversation', 'never-ending stream', 'interview', 'markdown', 'website', 'the shape of the internet', 'decentralized', 'existential design', 'p2p', 'a history of the internet', 'a history of internet art', 'concrete poetry', 'coding from life', 'documentation', 'memorable', 'poetry', 'bugs'];
+
+ var random_word = words[Math.floor(Math.random()*words.length)];
+ $('#outro').html(random_word);
+  </script>
+</body>
+
+</html>
