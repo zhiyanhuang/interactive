@@ -83,8 +83,8 @@ transition:width 1s, height 1s;
 .test2:hover
 {
 background: url(images/imagesbig.gif);
-width:450px;
-height:450px;
+width:626px;
+height:626px;
 opacity:0.8;
 -webkit-transform:rotate(360deg);
 }
