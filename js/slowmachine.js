@@ -17,13 +17,13 @@ function runSlots() {
     $($(".img-box-in")[2]).html('<img src="' + images[slotThree - 1] + '">');
 
     if (slotOne === slotTwo && slotTwo === slotThree) {
-        $(".info p").html("Good Luck!");
+        $(".info p").html("Is that you?");
         return null;
     }
     if (slotOne !== undefined && slotTwo !== undefined && slotThree !== undefined) {
         $(".info p").html(slotOne + " " + slotTwo + " " + slotThree);
     }
-    $(".info p").append("Oh,no!Try again.");
+    $(".info p").append("Oh,Sorry!");
     return [
         slotOne,
         slotTwo,
