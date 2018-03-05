@@ -32,7 +32,7 @@ function runSlots() {
 }
 
 $(document).ready(function() {
-    $(".btn button").click(function() {
+    $(".button").click(function() {
         runSlots();
     });
 });
