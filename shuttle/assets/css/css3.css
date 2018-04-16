@@ -1,0 +1,79 @@
+.p_move,.img_move,.img_move2 {
+	animation:mymove 4s infinite linear;
+-moz-animation:mymove 4s infinite linear; /* Firefox */
+-webkit-animation:mymove 4s infinite linear; /* Safari and Chrome */
+-o-animation:mymove 4s infinite linear; /* Opera */
+	
+}
+
+.p_move:hover{
+	animation-play-state: paused;
+}
+.img_move:hover{
+	animation-play-state: paused;
+}
+
+
+@keyframes mymove {
+	    
+		0%{
+			left: 0px;
+		}
+		50% {
+			left: 380px;
+		}
+		75% {
+			left: 570px;
+		}
+		100% {
+			left: 760px;
+		}
+	}
+	@-moz-keyframes mymove/* Firefox */
+	{
+		 
+		0%{
+			left: 0px;
+		}
+		50% {
+			left: 380px;
+		}
+		75% {
+			left: 570px;
+		}
+		100% {
+			left: 760px;
+		}
+	}
+	@-webkit-keyframes mymove/* Safari 和 Chrome */
+	{
+		 
+		0%{
+			left: 0px;
+		}
+		50% {
+			left: 380px;
+		}
+		75% {
+			left: 570px;
+		}
+		100% {
+			left: 760px;
+		}
+	}
+	@-o-keyframes mymove/* Opera */
+	{
+		 
+		0%{
+			left: 0px;
+		}
+		50% {
+			left: 380px;
+		}
+		75% {
+			left: 570px;
+		}
+		100% {
+			left: 760px;
+		}
+	}

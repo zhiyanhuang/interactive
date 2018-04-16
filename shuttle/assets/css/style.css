@@ -1,0 +1,119 @@
+html{
+	background-color:#C0C0C0;
+}
+* {  
+    margin: 0;  
+    border: 0;  
+    padding: 0;  
+    font-size: 13pt;  
+}
+header{
+	padding:24px;
+}
+body{
+	width:750px;
+	height:1334px;
+	margin:0 auto;
+	background-color:white;
+}
+.yc,.xs{
+	cursor:pointer;
+}
+.tittle_a,.yc,.xs{
+	font-size:20px;
+	font-weight:700;
+	color:black;
+	text-decoration:none;
+	margin-right:24px;
+}
+ul{
+	padding-left:24px;
+	padding-right:24px;
+}
+li{
+	display:block;
+	width:100%;
+	overflow-x: hidden;
+}
+li p{
+	border:2px solid;
+	border-radius:5px;
+	padding:15px;
+	width:auto;
+	display:inline-block;
+	max-width:320px;
+	margin-bottom:50px;
+	
+}
+.chat-room-img{
+	border:2px solid;
+	border-radius:5px;
+	padding:15px;
+	width:auto;
+	display:inline-block;
+	max-width:320px;
+	margin-bottom:50px;
+}
+.face-box{
+	border:2px solid;
+	border-radius:5px;
+	padding:5px;
+	width:auto;
+	display:inline-block;
+	max-width:320px;
+	margin-top:20px;
+}
+.photo{
+	width:226px;
+	height:226px
+	float:left;
+}
+.face{
+	width:32px;
+	height:32px;
+	float:left;
+	margin:4px;
+}
+.cut-line{
+	text-align:center;
+	font-size:12px;
+	border-bottom:1px solid;
+	width:100%;
+	margin-top:4px;
+	margin-bottom:12px;
+	line-height:24px;
+}
+.video-1{
+	height:300px;
+	padding-left:24px;
+	padding-right:24px;
+}
+.video-2{
+	height:430px;
+	padding-left:24px;
+	padding-right:24px;
+}
+.video-3{
+	height:430px;
+	padding-left:24px;
+	padding-right:24px;
+}
+video{
+	background-color:rgb(140,198,63);
+	width:100%;
+}
+.row-img{
+	width:380px;
+	height:380px;
+}
+.dig{
+	border:2px solid;
+	border-radius:15px;
+	width:450px;
+	height:200px;
+	position:absolute;
+	top:380px;
+	left:150px;
+	background-color:white;
+	display:none;
+}

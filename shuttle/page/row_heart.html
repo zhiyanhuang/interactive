@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content=""/>
+  <!-- <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png"> -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/animate.css">
+  <link rel="stylesheet" href="../assets/css/css3.css">
+  <script type="text/javascript" src="../assets/js/jquery-1.4.2.min.js"></script>
+  <script>
+$(document).ready(function(){
+  $("p.xs").click(function(){
+  	if ($("p.p_move").css("visibility")=="hidden") {
+  		$("p.p_move").css("visibility","visible");
+  		$("img.img_move2").css("visibility","visible");
+  	} else{
+  		$("p.p_move").css("visibility","hidden");
+  		$("img.img_move2").css("visibility","hidden");
+  	}
+    
+  });
+});
+</script>
+  <script>
+$(document).ready(function(){
+  $("p.yc").click(function(){
+  	if ($("img.img_move").css("visibility")=="visible") {
+  		$("img.img_move").css("visibility","hidden");
+  	} else{
+  		$("img.img_move").css("visibility","visible");
+  	}
+    
+  });
+});
+</script>
+</head>
+<body style="position:relative;">
+	<header>
+		<p class="yc" style="float: left;">Chat Room</p>
+		<p class="xs" style="float: left;">View</p>
+		<a class="tittle_a" href="photo.html">Share</a>
+		<a class="tittle_a" href="map.html" style="position: absolute; right: 30px; top: 24px">Online</a>
+		<a class="tittle_a" href="map.html" style="position: absolute; right: 30px; top: 48px">No.317</a>
+	</header>
+	<ul>
+		<li style=" margin-top: -12px"><p class="p_move" style="position: relative;z-index:9;animation-delay: 1200ms;">Hello? Is anyone there?</p></li>
+		
+		<li style=" margin-top: -35px">
+			<p class="p_move" style="position: relative;z-index:9; left: 200px;animation-delay: 1000ms;">Dine with me?</p>
+			
+		</li>
+
+		<li style=" margin-top: -50px;">
+			<img class="img_move2" style="width: 40%;height: 40%;position:relative; left: 580px;z-index:9;" src="../assets/images/btn.png"/>
+				
+			<!-- <p class="p_move" style="border:solid 2px rgb(255,46,120);position: relative;z-index:9; left: 330px;animation-delay: 1300ms;"> -->
+				<!-- Message 15min! Text me. -->
+				
+			<!-- </p> -->
+			</li>
+		<li>
+
+		</li>
+		<li style=" margin-top: -5px"><img style="position: relative;animation-delay: 0.8s;" class="row-img img_move" src="../assets/images/img_1.png"/></li>
+		
+		<li style=" margin-top: -320px"><p class="p_move" style="position: relative; left: 30px;z-index:9;background-color:white;animation-delay: 1.8s;">Boring!</p></li>
+		
+		<li style=" margin-top: 60px"><img style="position: relative;animation-delay: 2500ms; " class="row-img img_move" src="../assets/images/img_2.png"/></li>
+		
+		<li style=" margin-top: -220px"><p class="p_move" style="position: relative; left: 330px;z-index:9;animation-delay: 400ms;background-color: white;"><a style="text-decoration:none;color: black;" href="list.html">Message 15min! Text me.</a></p></li>
+		
+		<li style=" margin-top: -10px"><img style="position: relative;animation-delay: 1200ms; " class="row-img img_move" src="../assets/images/img_3.png"/></li>
+		
+		<li style=" margin-top: -230px">
+			<div style="position: relative;background-color:white;z-index:9;animation-delay: 1400ms;" class="face-box img_move">
+			<img class="face" src="../assets/images/ico_1.png"/>
+			<img class="face" src="../assets/images/ico_1.png"/>
+			<img class="face" src="../assets/images/ico_1.png"/>
+			<img class="face" src="../assets/images/ico_1.png"/>
+			</div>
+			
+		</li>
+		
+		<li style=" margin-top: 148px"><p class="p_move" style="position: relative; left: 30px;z-index:9;animation-delay: 1000ms;">Is there any good restaurant around here?</p></li>
+	
+	</ul>
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
