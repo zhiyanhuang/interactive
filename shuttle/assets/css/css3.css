@@ -1,8 +1,8 @@
-.p_move,.img_move,.img_move2 {
-	animation:mymove 4s infinite linear;
--moz-animation:mymove 4s infinite linear; /* Firefox */
--webkit-animation:mymove 4s infinite linear; /* Safari and Chrome */
--o-animation:mymove 4s infinite linear; /* Opera */
+﻿.p_move,.img_move,.img_move2 {
+	animation:mymove 6s infinite linear;
+-moz-animation:mymove 6s infinite linear; /* Firefox */
+-webkit-animation:mymove 6s infinite linear; /* Safari and Chrome */
+-o-animation:mymove 6s infinite linear; /* Opera */
 	
 }
 
