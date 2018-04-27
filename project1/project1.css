@@ -16,20 +16,20 @@
 }
 
 .space {
-	width: 106px;
+	width: 100px;
 	height: 130px;
 }
 
 
 .A {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-A {
 	background-image: url("A.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -586,7 +586,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .A .eighttwo
@@ -599,7 +599,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .A .eightthree
@@ -612,7 +612,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 35px;
-  top: 106px;
+  top: 100px;
 }
 
 .A .eightfour
@@ -625,7 +625,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 50px;
-  top: 106px;
+  top: 100px;
 }
 
 .A .eightfive
@@ -638,7 +638,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .A .eightsix
@@ -651,18 +651,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .B {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-B {
 	background-image: url("B.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -1235,7 +1235,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 30px;
-  top: 106px;
+  top: 100px;
 }
 
 .B .eightfour
@@ -1248,7 +1248,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 45px;
-  top: 106px;
+  top: 100px;
 }
 
 .B .eightfive
@@ -1261,7 +1261,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 61px;
-  top: 106px;
+  top: 100px;
 }
 
 .B .eightsix
@@ -1274,18 +1274,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 80px;
-  top: 106px;
+  top: 103px;
 }
 
 .C {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-C {
 	background-image: url("C-G.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -1701,7 +1701,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .C .eighttwo
@@ -1714,7 +1714,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .C .eightthree
@@ -1727,7 +1727,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .C .eightfour
@@ -1740,7 +1740,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .C .eightfive
@@ -1753,7 +1753,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .C .eightsix
@@ -1766,18 +1766,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .D {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-D {
 	background-image: url("D.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -2272,7 +2272,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 30px;
-  top: 106px;
+  top: 100px;
 }
 
 .D .eightfour
@@ -2285,7 +2285,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 45px;
-  top: 106px;
+  top: 100px;
 }
 
 .D .eightfive
@@ -2298,7 +2298,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 61px;
-  top: 106px;
+  top: 100px;
 }
 
 .D .eightsix
@@ -2311,18 +2311,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 80px;
-  top: 106px;
+  top: 103px;
 }
 
 .E {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-E {
 	background-image: url("E.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -2818,7 +2818,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 30px;
-  top: 106px;
+  top: 100px;
 }
 
 .E .eightfour
@@ -2831,7 +2831,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 45px;
-  top: 106px;
+  top: 100px;
 }
 
 .E .eightfive
@@ -2844,7 +2844,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 61px;
-  top: 106px;
+  top: 100px;
 }
 
 .E .eightsix
@@ -2857,18 +2857,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 78px;
-  top: 106px;
+  top: 100px;
 }
 
 .F {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-F {
 	background-image: url("F.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -3364,7 +3364,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 32px;
-  top: 106px;
+  top: 100px;
 }
 
 .F .eightfour
@@ -3377,7 +3377,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .F .eightfive
@@ -3390,7 +3390,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 63px;
-  top: 106px;
+  top: 100px;
 }
 
 .F .eightsix
@@ -3403,18 +3403,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 80px;
-  top: 106px;
+  top: 100px;
 }
 
 .G {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-G {
 	background-image: url("C-G.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -3856,7 +3856,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .G .eighttwo
@@ -3869,7 +3869,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .G .eightthree
@@ -3882,7 +3882,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .G .eightfour
@@ -3895,7 +3895,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .G .eightfive
@@ -3908,7 +3908,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .G .eightsix
@@ -3921,18 +3921,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .H {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-H {
 	background-image: url("H.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -4480,7 +4480,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 32px;
-  top: 106px;
+  top: 100px;
 }
 
 .H .eightfour
@@ -4493,7 +4493,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .H .eightfive
@@ -4523,14 +4523,14 @@
 }
 
 .I {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-I {
 	background-image: url("I.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -4909,7 +4909,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 100px;
 }
 
 .I .eighttwo
@@ -4974,18 +4974,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 79px;
-  top: 106px;
+  top: 100px;
 }
 
 .J {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-J {
 	background-image: url("J-U.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -5286,7 +5286,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 100px;
 }
 
 .J .eighttwo
@@ -5299,7 +5299,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 15px;
-  top: 106px;
+  top: 100px;
 }
 
 .J .eightthree
@@ -5351,11 +5351,11 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 79px;
-  top: 106px;
+  top: 100px;
 }
 
 .K {
-	width: 106px;
+	width: 100px;
 	position: relative;
 	height: 219px;
 }
@@ -5363,7 +5363,7 @@
 .lines-K {
 	background-image: url("K.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -5768,7 +5768,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .K .eighttwo
@@ -5781,7 +5781,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .K .eightthree
@@ -5794,7 +5794,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 32px;
-  top: 106px;
+  top: 100px;
 }
 
 .K .eightfour
@@ -5807,7 +5807,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .K .eightfive
@@ -5820,7 +5820,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 63px;
-  top: 106px;
+  top: 100px;
 }
 
   .K .eightsix
@@ -5833,18 +5833,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 79px;
-  top: 106px;
+  top: 100px;
 }
 
 .L {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-L {
 	background-image: url("L.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -6195,7 +6195,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .L .eighttwo
@@ -6208,7 +6208,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .L .eightthree
@@ -6221,7 +6221,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .L .eightfour
@@ -6234,7 +6234,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .L .eightfive
@@ -6247,7 +6247,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 66px;
-  top: 106px;
+  top: 100px;
 }
 
 .L .eightsix
@@ -6260,18 +6260,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .M {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-M {
 	background-image: url("M.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -6805,7 +6805,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .M .eighttwo
@@ -6818,7 +6818,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .M .eightthree
@@ -6831,7 +6831,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 33px;
-  top: 106px;
+  top: 100px;
 }
 
 .M .eightfour
@@ -6844,7 +6844,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 50px;
-  top: 106px;
+  top: 100px;
 }
 
 .M .eightfive
@@ -6857,7 +6857,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 66px;
-  top: 106px;
+  top: 100px;
 }
 
 .M .eightsix
@@ -6870,18 +6870,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .N {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-N {
 	background-image: url("N.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -7363,7 +7363,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .N .eighttwo
@@ -7376,7 +7376,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .N .eightthree
@@ -7389,7 +7389,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 33px;
-  top: 106px;
+  top: 100px;
 }
 
 .N .eightfour
@@ -7402,7 +7402,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 50px;
-  top: 106px;
+  top: 100px;
 }
 
 .N .eightfive
@@ -7415,7 +7415,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .N .eightsix
@@ -7428,18 +7428,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .O {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-O {
 	background-image: url("O-Q.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -7920,7 +7920,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .O .eighttwo
@@ -7933,7 +7933,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .O .eightthree
@@ -7946,7 +7946,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .O .eightfour
@@ -7959,7 +7959,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .O .eightfive
@@ -7972,7 +7972,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .O .eightsix
@@ -7985,18 +7985,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .P {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-P {
 	background-image: url("P-R.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -8478,7 +8478,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .P .eighttwo
@@ -8491,7 +8491,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .P .eightthree
@@ -8504,7 +8504,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 32px;
-  top: 106px;
+  top: 100px;
 }
 
 .P .eightfour
@@ -8517,7 +8517,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .P .eightfive
@@ -8530,7 +8530,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 63px;
-  top: 106px;
+  top: 100px;
 }
 
 .P .eightsix
@@ -8543,19 +8543,19 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 80px;
-  top: 106px;
+  top: 100px;
 }
 
 
 .Q {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-Q {
 	background-image: url("O-Q.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -9049,7 +9049,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 100px;
 }
 
 .Q .eighttwo
@@ -9062,7 +9062,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .Q .eightthree
@@ -9075,7 +9075,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .Q .eightfour
@@ -9088,7 +9088,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .Q .eightfive
@@ -9101,7 +9101,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 67px;
-  top: 106px;
+  top: 100px;
 }
 
 .Q .eightsix
@@ -9114,11 +9114,11 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .R {
-	width: 106px;
+	width: 100px;
 	position: relative;
 	height: 219px;
 }
@@ -9126,7 +9126,7 @@
 .lines-R {
 	background-image: url("P-R.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -9621,7 +9621,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .R .eighttwo
@@ -9634,7 +9634,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .R .eightthree
@@ -9647,7 +9647,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 32px;
-  top: 106px;
+  top: 100px;
 }
 
 .R .eightfour
@@ -9660,7 +9660,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .R .eightfive
@@ -9673,7 +9673,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 63px;
-  top: 106px;
+  top: 100px;
 }
 
 .R .eightsix
@@ -9686,18 +9686,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 78px;
-  top: 106px;
+  top: 100px;
 }
 
 .S {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-S {
 	background-image: url("S.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -10087,7 +10087,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .S .eighttwo
@@ -10100,7 +10100,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .S .eightthree
@@ -10113,7 +10113,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .S .eightfour
@@ -10126,7 +10126,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .S .eightfive
@@ -10139,7 +10139,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 66px;
-  top: 106px;
+  top: 100px;
 }
 
 .S .eightsix
@@ -10152,18 +10152,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .T {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-T {
 	background-image: url("I-T-7.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -10542,7 +10542,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 100px;
 }
 
 .T .eighttwo
@@ -10555,7 +10555,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 15px;
-  top: 106px;
+  top: 100px;
 }
 
 .T .eightthree
@@ -10568,7 +10568,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 30px;
-  top: 106px;
+  top: 100px;
 }
 
 .T .eightfour
@@ -10581,7 +10581,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 45px;
-  top: 106px;
+  top: 100px;
 }
 
 .T .eightfive
@@ -10594,7 +10594,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 64px;
-  top: 106px;
+  top: 100px;
 }
 
 .T .eightsix
@@ -10607,11 +10607,11 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 79px;
-  top: 106px;
+  top: 100px;
 }
 
 .U {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
@@ -11093,7 +11093,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .U .eighttwo
@@ -11106,7 +11106,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .U .eightthree
@@ -11119,7 +11119,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .U .eightfour
@@ -11132,7 +11132,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .U .eightfive
@@ -11145,7 +11145,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .U .eightsix
@@ -11158,18 +11158,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .V {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-V {
 	background-image: url("V.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -11651,7 +11651,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .V .eighttwo
@@ -11664,7 +11664,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 15px;
-  top: 106px;
+  top: 100px;
 }
 
 .V .eightthree
@@ -11677,7 +11677,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .V .eightfour
@@ -11690,7 +11690,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .V .eightfive
@@ -11703,7 +11703,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 70px;
-  top: 106px;
+  top: 100px;
 }
 
 .V .eightsix
@@ -11716,18 +11716,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .W {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-W {
 	background-image: url("W.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -12235,7 +12235,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 103px;
 }
 
 .W .eighttwo
@@ -12248,7 +12248,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .W .eightthree
@@ -12261,7 +12261,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 33px;
-  top: 106px;
+  top: 103px;
 }
 
 .W .eightfour
@@ -12274,7 +12274,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 51px;
-  top: 106px;
+  top: 103px;
 }
 
 .W .eightfive
@@ -12287,7 +12287,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .W .eightsix
@@ -12300,18 +12300,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 103px;
 }
 
 .X {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-X {
 	background-image: url("X.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -12702,7 +12702,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .X .eighttwo
@@ -12715,7 +12715,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .X .eightthree
@@ -12728,7 +12728,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 33px;
-  top: 106px;
+  top: 100px;
 }
 
 .X .eightfour
@@ -12741,7 +12741,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 50px;
-  top: 106px;
+  top: 100px;
 }
 
 .X .eightfive
@@ -12754,7 +12754,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .X .eightsix
@@ -12767,18 +12767,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-Y {
 	background-image: url("Y.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13260,7 +13260,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 0px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y .eighttwo
@@ -13273,7 +13273,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 15px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y .eightthree
@@ -13286,7 +13286,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 30px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y .eightfour
@@ -13299,7 +13299,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 47px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y .eightfive
@@ -13312,7 +13312,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 68px;
-  top: 106px;
+  top: 100px;
 }
 
 .Y .eightsix
@@ -13325,18 +13325,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 85px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-Z {
 	background-image: url("Z.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13792,7 +13792,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: -2px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z .eighttwo
@@ -13805,7 +13805,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 13px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z .eightthree
@@ -13818,7 +13818,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 31px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z .eightfour
@@ -13831,7 +13831,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 49px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z .eightfive
@@ -13844,7 +13844,7 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 66px;
-  top: 106px;
+  top: 100px;
 }
 
 .Z .eightsix
@@ -13857,18 +13857,18 @@
 	border-radius: 50px;
 	position: absolute;
 	left: 83px;
-  top: 106px;
+  top: 100px;
 }
 
 .one {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-one {
 	background-image: url("1.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13890,7 +13890,7 @@
 }
 
 .one .bottom {
-	width: 106px;
+	width: 100px;
 	height: 15px;
 	background-color: black;
 	position: absolute;
@@ -13899,14 +13899,14 @@
 }
 
 .two {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-two {
 	background-image: url("2.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13921,7 +13921,7 @@
 }
 
 .two .bottom {
-	width: 106px;
+	width: 100px;
 	height: 15px;
 	background-color: black;
 	position: absolute;
@@ -13930,14 +13930,14 @@
 }
 
 .three {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-three {
 	background-image: url("3.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13963,14 +13963,14 @@
 }
 
 .four {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-four {
 	background-image: url("4.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -13982,7 +13982,7 @@
 }
 
 .four .middle {
-	width: 106px;
+	width: 100px;
 	height: 15px;
 	background-color: black;
 	position: absolute;
@@ -13999,19 +13999,19 @@
 }
 
 .five {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-five {
 	background-image: url("5.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
 .five .top {
-	width: 106px;
+	width: 100px;
 	height: 15px;
 	background-color: black;
 	position: absolute;
@@ -14038,14 +14038,14 @@
 }
 
 .six {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-six {
 	background-image: url("6.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -14075,19 +14075,19 @@
 }
 
 .seven {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-seven {
 	background-image: url("7.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
 .seven .top {
-	width: 106px;
+	width: 100px;
 	height: 15px;
 	background-color: black;
 	position: absolute;
@@ -14104,14 +14104,14 @@
 }
 
 .eight {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-eight {
 	background-image: url("8.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -14136,14 +14136,14 @@
 }
 
 .nine {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-nine {
 	background-image: url("9.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -14167,14 +14167,14 @@
 }
 
 .zero {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-zero {
 	background-image: url("zero.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -14210,7 +14210,7 @@
 	border-bottom-right-radius: 36%;
 }
 .exclamation {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
@@ -14232,14 +14232,14 @@
 }
 
 .question {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
 .lines-question {
 	background-image: url("question.png");
 	background-size: 100%;
-	width: 106px;
+	width: 100px;
 	height: 220px;
 }
 
@@ -14270,7 +14270,7 @@
 }
 
 .period {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
@@ -14284,7 +14284,7 @@
 }
 
 .quotes {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 
@@ -14299,7 +14299,7 @@
 }
 
 .comma {
-	width: 106px;
+	width: 100px;
 	position: relative;
 }
 

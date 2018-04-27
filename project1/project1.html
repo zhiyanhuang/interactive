@@ -2,88 +2,182 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="project1.css">
-    <title>Font</title>
+    <title>Secret Corner</title>
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="project1.js"></script>
     <script type="text/javascript">
     	$(function() {
     		var ct = $(window).width();
+    		var hi = $(window).height();
     		var sdjsq = 0;
     		$('#zm').bind('input propertychange', function() {
     			sy($(this));
     			ct = $(window).width();
+    			hi = $(window).height();
 			});
-
+			
 			$("#sd").click(function(){
 				$("#tp").attr("id","tp"+sdjsq);
-				sdjsq++;
-				$("#zhu").append("<div id='tp' style='position:absolute;top:"+sdjsq*220+"'></div>");
 				$("#zm").val("");
+				sdjsq++;
+				var tpp = 0;
+				var len = 0;
+				$(".sdsd").each(function(){
+					var h =0;
+					if($(this).css("top").substring($(this).css("top").length-2,$(this).css("top").length)=='px')
+					{
+						h = $(this).css("top").substring(0,$(this).css("top").length-2);
+					}else{
+						h = $(this).css("top");
+					}
+					
+         				 tpp = h*1 > tpp*1 ? h : tpp;
+				});
+				$(".sdsd").each(function(){
+					var h =0;
+					if($(this).css("top").substring($(this).css("top").length-2,$(this).css("top").length)=='px')
+					{
+						h = $(this).css("top").substring(0,$(this).css("top").length-2);
+					}else{
+						h = $(this).css("top");
+					}
+					 
+					 if(h==tpp ){
+					 	
+					 	len = $(this).find(".word").length;
+					 	console.log(len);
+					 }
+         				
+				});
+				
+				var cc =0;
+				if((tpp*1+len*150)<=0){
+					cc=190
+				}else{
+					cc=(tpp*1+len*150);
+				}
+			$("#zhu").append("<div id='tp' class='sdsd' style='position:absolute;top:"+cc+"'></div>");
 
+				
+				
 			})
-			$(window).resize(function () {
-
-    			$("#tp .word").each(function(){
+			$("#ctks").click(function(){
+				$("#tp").attr("id","tp"+sdjsq);
+				sdjsq++;
+			/*	var tpp = $(".word").length;
+				var yy = 190;
+				if(tpp==1){
+					yy=220;
+				}*/
+				$(".sdsd").attr("class","sdsdcx");
+				$("#zhu").append("<div id='tp'  class='sdsd' style='position:absolute'></div>");
+				$("#zm").val("");
+				
+				
+			})
+			$(window).resize(function () { 
+    			$("#tp .word").each(function(i,n){
     			/*	var zh = $(this).children().last().css("left").substring(0,$(this).children().last().css("left").length-2);
-    				//$(this).children().last().css("position","absolute").css("left",($(this).children().length-2)*106+30);
+    				//$(this).children().last().css("position","absolute").css("left",($(this).children().length-2)*100+30);
     				var tt = $(window).width()-zh;*/
-
-    				console.log("CT----"+ct);
-    				console.log("WW---"+$(window).width());
+    				/*var top = $(this).css("top").substring(0,$(this).css("top").length-2);
+    				var tptop = $("#tp").css("top").substring(0,$("#tp").css("top").length-2);
+    				console.log("HI----"+hi);
+    				console.log("WW---"+$(window).height());
+    					if(hi>=$(window).height()){
+    						
+    						if($(window).height()<top*1+170*1+tptop){
+    							if(top-(hi-$(window).height())<=0){
+    								$(this).css("top",0)	
+    							}else{
+	    						$(this).css("top",top-(hi-$(window).height()))	
+	    						}
+	    						}
+    						}
+    					if(hi<$(window).height()){
+    						/*if(i==0){
+    							$(this).css("top",0);
+    						}else{
+    							if(top==0){
+    							
+    								$(this).css("top",$(window).height()-150);
+    							}else{
+    								
+    								$(this).css("top",$(window).height()-150);
+    								
+    								if($(this).css("top").substring(0,$(this).css("top").length-2)>i*150){
+    									$(this).css("top",i*150);
+    									
+  									}
+    								}
+    						  }}
+    						  */
+    					
+    				
     				$(this).children().each(function(i,n){
-    					console.log("1-----"+$(this).attr("data-character"));
     					var left = $(this).css("left").substring(0,$(this).css("left").length-2);
-    					console.log("3-----"+$(this).attr("data-character"));
+    					
     					if(ct>=$(window).width()){
-    						console.log("2----"+$(this).attr("data-character"));
-	    					if($(window).width()-106<left){
-	    						if(left-106<=0){
+	    					if($(window).width()-100<left){
+	    						if(left-100<=0){
 	    							$(this).css("left",0);
 	    						}else{
-	    							$(this).css("left",$(window).width()-106);
+	    							$(this).css("left",$(window).width()-100);
 	    						}
 	    					}
-
-    					}else{
-    						if(i==0){
+    					
+    					}
+    					if(ct<$(window).width()){
+    						/*if(i==0){
     							$(this).css("left",0);
     						}else{
     							if(left==0){
-
-    								$(this).css("left",$(window).width()-106);
+    							
+    								$(this).css("left",$(window).width()-100);
     							}else{
-
-    								$(this).css("left",$(window).width()-106);
-
-    								if($(this).css("left").substring(0,$(this).css("left").length-2)>i*106){
-    									$(this).css("left",i*106);
-
+    								
+    								$(this).css("left",$(window).width()-100);
+    								
+    								if($(this).css("left").substring(0,$(this).css("left").length-2)>i*100){
+    									$(this).css("left",i*100);
+    									
   									}
     								}
-    						  }
-
+    						  }*/
+    						
     					}
+    				
     				})
-    				ct = $(window).width();
+    				
+    				ct = $(window).width();  
+    			
 
     			})
-
+//    				hi = $(window).height();
+    		
     		});
     	})
     </script>
-
-
+   
+    
 </head>
 
 <body style="">
   <!-- Use the letters (visible) -->
 
-  <div class="letters" id="zhu">
-  	<input type="text" id="zm"/><input type="button" value="Lock" id="sd"/>
+  <div class="letters" id="zhu" >
+    <h1>Secret Corner</h1>
+  	<p style="margin-top:-16px;">Typing your secret by dragging browser.</p>
+  	<br />
+	<div style="margin-top:-16px;">
+  	<input style="border:3px solid black;width:200px;height:36px;margin-right:8px;" type="text" id="zm"/>
+	<input style="border:3px solid black;width:100px;height:36px;margin-right:8px;background-color:white;font-weight:700;" type="button" value="LOCK" id="sd"/>
+	<input style="border:3px solid black;width:100px;height:36px;margin-right:8px;background-color:white;font-weight:700;" type="button" value="RESTART" id="ctks"/>
+	</div>
   	<br />
   	<br />
-  	<div id="tp" style="position:absolute"></div>
-
+  	<div id="tp" class="sdsd" style="position:absolute"></div>
+  
   </div>
 
   <!-- Define the letters (invisible) -->

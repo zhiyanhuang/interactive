@@ -17,7 +17,7 @@ function runSlots() {
     $($(".img-box-in")[2]).html('<img src="' + images[slotThree - 1] + '">');
 
     if (slotOne === slotTwo && slotTwo === slotThree) {
-        $(".info p").html("Is that you?");
+        $(".info p").html("Oh,Good Luck!");
         return null;
     }
     if (slotOne !== undefined && slotTwo !== undefined && slotThree !== undefined) {
@@ -32,7 +32,7 @@ function runSlots() {
 }
 
 $(document).ready(function() {
-    $(".button").click(function() {
+    $(".btn button").click(function() {
         runSlots();
     });
 });
