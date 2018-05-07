@@ -2,182 +2,30 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="project1.css">
-    <title>Secret Corner</title>
+    <title>Font</title>
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="project1.js"></script>
     <script type="text/javascript">
     	$(function() {
-    		var ct = $(window).width();
-    		var hi = $(window).height();
-    		var sdjsq = 0;
+    		
     		$('#zm').bind('input propertychange', function() {
     			sy($(this));
-    			ct = $(window).width();
-    			hi = $(window).height();
 			});
-
-			$("#sd").click(function(){
-				$("#tp").attr("id","tp"+sdjsq);
-				$("#zm").val("");
-				sdjsq++;
-				var tpp = 0;
-				var len = 0;
-				$(".sdsd").each(function(){
-					var h =0;
-					if($(this).css("top").substring($(this).css("top").length-2,$(this).css("top").length)=='px')
-					{
-						h = $(this).css("top").substring(0,$(this).css("top").length-2);
-					}else{
-						h = $(this).css("top");
-					}
-
-         				 tpp = h*1 > tpp*1 ? h : tpp;
-				});
-				$(".sdsd").each(function(){
-					var h =0;
-					if($(this).css("top").substring($(this).css("top").length-2,$(this).css("top").length)=='px')
-					{
-						h = $(this).css("top").substring(0,$(this).css("top").length-2);
-					}else{
-						h = $(this).css("top");
-					}
-
-					 if(h==tpp ){
-
-					 	len = $(this).find(".word").length;
-					 	console.log(len);
-					 }
-
-				});
-
-				var cc =0;
-				if((tpp*1+len*150)<=0){
-					cc=190
-				}else{
-					cc=(tpp*1+len*150);
-				}
-			$("#zhu").append("<div id='tp' class='sdsd' style='position:absolute;top:"+cc+"'></div>");
-
-
-
-			})
-			$("#ctks").click(function(){
-				$("#tp").attr("id","tp"+sdjsq);
-				sdjsq++;
-			/*	var tpp = $(".word").length;
-				var yy = 190;
-				if(tpp==1){
-					yy=220;
-				}*/
-				$(".sdsd").attr("class","sdsdcx");
-				$("#zhu").append("<div id='tp'  class='sdsd' style='position:absolute'></div>");
-				$("#zm").val("");
-
-
-			})
-			$(window).resize(function () {
-    			$("#tp .word").each(function(i,n){
-    			/*	var zh = $(this).children().last().css("left").substring(0,$(this).children().last().css("left").length-2);
-    				//$(this).children().last().css("position","absolute").css("left",($(this).children().length-2)*100+30);
-    				var tt = $(window).width()-zh;*/
-    				/*var top = $(this).css("top").substring(0,$(this).css("top").length-2);
-    				var tptop = $("#tp").css("top").substring(0,$("#tp").css("top").length-2);
-    				console.log("HI----"+hi);
-    				console.log("WW---"+$(window).height());
-    					if(hi>=$(window).height()){
-
-    						if($(window).height()<top*1+170*1+tptop){
-    							if(top-(hi-$(window).height())<=0){
-    								$(this).css("top",0)
-    							}else{
-	    						$(this).css("top",top-(hi-$(window).height()))
-	    						}
-	    						}
-    						}
-    					if(hi<$(window).height()){
-    						/*if(i==0){
-    							$(this).css("top",0);
-    						}else{
-    							if(top==0){
-
-    								$(this).css("top",$(window).height()-150);
-    							}else{
-
-    								$(this).css("top",$(window).height()-150);
-
-    								if($(this).css("top").substring(0,$(this).css("top").length-2)>i*150){
-    									$(this).css("top",i*150);
-
-  									}
-    								}
-    						  }}
-    						  */
-
-
-    				$(this).children().each(function(i,n){
-    					var left = $(this).css("left").substring(0,$(this).css("left").length-2);
-
-    					if(ct>=$(window).width()){
-	    					if($(window).width()-100<left){
-	    						if(left-100<=0){
-	    							$(this).css("left",0);
-	    						}else{
-	    							$(this).css("left",$(window).width()-100);
-	    						}
-	    					}
-
-    					}
-    					if(ct<$(window).width()){
-    						/*if(i==0){
-    							$(this).css("left",0);
-    						}else{
-    							if(left==0){
-
-    								$(this).css("left",$(window).width()-100);
-    							}else{
-
-    								$(this).css("left",$(window).width()-100);
-
-    								if($(this).css("left").substring(0,$(this).css("left").length-2)>i*100){
-    									$(this).css("left",i*100);
-
-  									}
-    								}
-    						  }*/
-
-    					}
-
-    				})
-
-    				ct = $(window).width();
-
-
-    			})
-//    				hi = $(window).height();
-
-    		});
     	})
     </script>
-
-
+   
+    
 </head>
 
 <body style="">
   <!-- Use the letters (visible) -->
 
-  <div class="letters" id="zhu" >
-    <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Secret Corner</h1>
-  	<p style="margin-top:-16px;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Typing your secret by dragging browser.</p>
-  	<br />
-	<div style="margin-top:-16px;">
-  	<input style="border:3px solid black;width:200px;height:36px;margin-right:8px;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" type="text" id="zm"/>
-	<input style="border:3px solid black;width:100px;height:36px;margin-right:8px;background-color:white;font-weight:700;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" type="button" value="LOCK" id="sd"/>
-	<input style="border:3px solid black;width:100px;height:36px;margin-right:8px;background-color:white;font-weight:700;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" type="button" value="RESTART" id="ctks"/>
-	</div>
+  <div class="letters">
+  	<input type="text" id="zm"/>
   	<br />
   	<br />
-  	<div id="tp" class="sdsd" style="position:absolute"></div>
-
+  	<div id="tp"></div>
+  
   </div>
 
   <!-- Define the letters (invisible) -->
@@ -1415,38 +1263,9 @@
   <div class="letter-definition" data-character="1">
       <div class="one">
           <div class="lines-one">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threethree"></div>
-            <div class="threefour"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="sixthree"></div>
-            <div class="sixfour"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="middle"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1454,39 +1273,8 @@
   <div class="letter-definition" data-character="2">
       <div class="two">
           <div class="lines-two">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threefive"></div>
-            <div class="threesix"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="sixtwo"></div>
-            <div class="sixthree"></div>
-            <div class="sixfive"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1494,46 +1282,8 @@
   <div class="letter-definition" data-character="3">
       <div class="three">
           <div class="lines-three">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threefive"></div>
-            <div class="threesix"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixfive"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1541,48 +1291,9 @@
   <div class="letter-definition" data-character="4">
       <div class="four">
           <div class="lines-four">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="threefour"></div>
-            <div class="threefive"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixfour"></div>
-            <div class="sixfive"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="left"></div>
+              <div class="middle"></div>
+              <div class="right"></div>
           </div>
       </div>
   </div>
@@ -1590,46 +1301,9 @@
   <div class="letter-definition" data-character="5">
       <div class="five">
           <div class="lines-five">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixfive"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="left"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1637,47 +1311,8 @@
   <div class="letter-definition" data-character="6">
       <div class="six">
           <div class="lines-six">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixone"></div>
-            <div class="sixtwo"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1685,38 +1320,8 @@
   <div class="letter-definition" data-character="7">
       <div class="seven">
           <div class="lines-seven">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threefive"></div>
-            <div class="threesix"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="sixthree"></div>
-            <div class="sixfour"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="right"></div>
           </div>
       </div>
   </div>
@@ -1724,48 +1329,8 @@
   <div class="letter-definition" data-character="8">
       <div class="eight">
           <div class="lines-eight">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="threesix"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixone"></div>
-            <div class="sixtwo"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="bottom"></div>
           </div>
       </div>
   </div>
@@ -1773,46 +1338,8 @@
   <div class="letter-definition" data-character="9">
       <div class="nine">
           <div class="lines-nine">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="threesix"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="fourthree"></div>
-            <div class="fourfour"></div>
-            <div class="fourfive"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivethree"></div>
-            <div class="fivefour"></div>
-            <div class="fivefive"></div>
-            <div class="fivesix"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="top"></div>
+              <div class="right"></div>
           </div>
       </div>
   </div>
@@ -1820,42 +1347,8 @@
   <div class="letter-definition" data-character="0">
       <div class="zero">
           <div class="lines-zero">
-            <div class="oneone"></div>
-            <div class="onetwo"></div>
-            <div class="onethree"></div>
-            <div class="onefour"></div>
-            <div class="onefive"></div>
-            <div class="onesix"></div>
-            <div class="twoone"></div>
-            <div class="twotwo"></div>
-            <div class="twothree"></div>
-            <div class="twofour"></div>
-            <div class="twofive"></div>
-            <div class="twosix"></div>
-            <div class="threeone"></div>
-            <div class="threetwo"></div>
-            <div class="threesix"></div>
-            <div class="fourone"></div>
-            <div class="fourtwo"></div>
-            <div class="foursix"></div>
-            <div class="fiveone"></div>
-            <div class="fivetwo"></div>
-            <div class="fivesix"></div>
-            <div class="sixone"></div>
-            <div class="sixtwo"></div>
-            <div class="sixsix"></div>
-            <div class="sevenone"></div>
-            <div class="seventwo"></div>
-            <div class="seventhree"></div>
-            <div class="sevenfour"></div>
-            <div class="sevenfive"></div>
-            <div class="sevensix"></div>
-            <div class="eightone"></div>
-            <div class="eighttwo"></div>
-            <div class="eightthree"></div>
-            <div class="eightfour"></div>
-            <div class="eightfive"></div>
-            <div class="eightsix"></div>
+              <div class="left"></div>
+              <div class="right"></div>
           </div>
       </div>
   </div>
